@@ -1,0 +1,23 @@
+.about-me {
+  padding: 120px 0 107px;
+  background-color: #f6f6f6;
+
+  .title {
+    margin-bottom: 17px;
+  }
+
+  .info {
+    width: 485px;
+    text-align: center;
+    margin: 0 auto;
+
+    p {
+      line-height: 21px;
+      font-size: 18px;
+
+      &:not(:last-child){
+        padding-bottom: 45px;
+      }
+    }
+  }
+}

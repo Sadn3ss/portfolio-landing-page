@@ -1,0 +1,19 @@
+@import "utils";
+@import "header";
+@import "about-me";
+@import "skills";
+@import "portfolio";
+@import "contacts";
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #070707;
+}
+
+@import "media";

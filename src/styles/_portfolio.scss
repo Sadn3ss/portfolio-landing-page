@@ -1,0 +1,27 @@
+.portfolio {
+  padding: 112px 0 96px;
+  background-color: #F6F6F6;
+
+  .title {
+    margin-bottom: 47px;
+  }
+
+  .card {
+    &:not(:last-child) {
+      margin-bottom: 99px;
+    }
+
+    .img {
+      margin-bottom: 44px;
+    }
+
+    .subtitle {
+      line-height: 21px;
+      text-align: center;
+
+      a {
+        color: #070707;
+      }
+    }
+  }
+}

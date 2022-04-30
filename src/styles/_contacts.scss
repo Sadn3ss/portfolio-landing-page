@@ -1,0 +1,51 @@
+.contacts {
+  padding: 114px 0 123px;
+
+  .title {
+    margin-bottom: 20px;
+  }
+
+  .subtitle {
+    margin-bottom: 29px;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+  }
+
+  .btn-wrap {
+    text-align: center;
+    margin-bottom: 85px;
+  }
+
+  .btn {
+    padding: 13px 29px 12px;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 50px;
+    text-decoration: none;
+    margin: 0 auto;
+    transition: .2s ease;
+
+    &:hover {
+      background-color: #262626;
+    }
+  }
+
+  .icons {
+    margin-bottom: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .icon:not(:last-child) {
+      margin-right: 60px;
+    }
+  }
+
+  .copyright {
+    font-size: 14px;
+    color: #828282;
+    text-align: center;
+  }
+}
