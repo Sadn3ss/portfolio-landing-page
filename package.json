@@ -8,6 +8,6 @@
     "browser-sync": "^2.27.9"
   },
   "scripts": {
-    "serve": "browser-sync start --server --files 'src/styles/*.css, src/*.js'"
+    "serve": "browser-sync start --server --files 'styles/*.css, src/*.js'"
   }
 }
