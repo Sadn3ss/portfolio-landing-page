@@ -25,3 +25,21 @@
     }
   }
 }
+
+@media screen and (max-width: 501px) {
+  .contacts {
+    .title {
+      margin-bottom: 30px;
+    }
+
+    .subtitle {
+      margin-bottom: 40px;
+      font-size: 14px;
+    }
+
+    .btn {
+      font-size: 13px;
+    }
+  }
+
+}
